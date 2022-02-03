@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #23252C;
+}
+
+.Maindiv {
+    border : 2px solid black;
+    margin : 30%;
+    background: #1A1B21;
+}
+
+.Mainpic {
+    width : 100%;
+}
+.Info{
+    background: #1A1B21;
+    
+}
+.Info > h2{
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Info > h3{
+    font-size: 14px;
+    text-align: center;
+    color: #F3BF99;
+}
+.Info > h4{
+    font-size: 10px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.Buttonmain {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Buttonmain > .Email  {
+    padding: 9px 13px 9px 30px;
+    width: 115px;
+    background-image: url("https://img.icons8.com/external-dreamstale-lineal-dreamstale/15/000000/external-email-seo-dreamstale-lineal-dreamstale.png");
+    background-repeat: no-repeat;
+    background-position-x: 20%; 
+    background-position-y: 50%;
+    border: none;
+    border-radius: 5px;
+    background-color: #D1D5DB;
+}
+.Buttonmain > .Linkdin  {
+    padding: 9px 13px 9px 35px;
+    width: 115px;
+    background-image: url("https://img.icons8.com/material-sharp/15/000000/linkedin--v1.png");
+    background-repeat: no-repeat;
+    background-position-x: 18%; 
+    background-position-y: 50%;
+    background-color: #5093E2;
+    border: none;
+    border-radius: 5px
+}
+.About{
+    background: #1A1B21;
+    color: #DCDCDC;
+}
+.About-title{
+    padding-left: 5%;
+    margin-top: 30px;
+    
+}
+.About-para{
+    padding: 5%;
+    margin-top: -25px;   
+}
+
+.Interests{
+    background: #1A1B21;
+    color: #DCDCDC;
+}
+
+.Interests-title {
+     padding-left: 5%;
+    margin-top: -10px;
+}
+.Interests-para {
+    padding: 5%;
+    margin-top: -25px; 
+}
+
+.Footermain {
+    display: flex;
+    justify-content: space-around;
+    background: #161619;
+    margin-bottom: 10px;
+}
+
+.Footermain > img {
+    background: #918E9B;
+}
+
